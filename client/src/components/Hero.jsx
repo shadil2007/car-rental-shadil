@@ -36,6 +36,8 @@ const handlesubmit = (e) => {
         className='h-screen flex relative items-center mx-auto justify-between gap-14
          bg-linear-to-r  from-slate-900 via-gray-900  to-emerald-900 text-center overflow-hidden'>
 
+            
+
             <div className='flex flex-col  md:pl-38  pl-10 '>
 
                 <div 
@@ -110,12 +112,12 @@ const handlesubmit = (e) => {
 
 
             <div>
-                <img src={assets.main_car} alt="cars" className='max-h-120 right-0 top-40 md:hidden  mt-64 absolute ' />
+               
                 <motion.img
                   initial={{x:200,opacity:0,scale:0.95}}
                  animate={{x:0,opacity:1,scale:1}}
                   transition={{duration:0.8}}
-                 src={assets.side_car} alt="" className='max-h-100 hidden md:block pr-20 scale-105 hover:scale-110 mt-10 duration-500' />
+                 src={assets.side_car} alt="" className='max-h-100  md:block pr-20 scale-105 hover:scale-110 mt-10 duration-500' />
             </div>
 
         </motion.div>

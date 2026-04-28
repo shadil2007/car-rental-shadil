@@ -36,10 +36,10 @@ export default function Navbar() {
         animate={{y:0,opacity:1}}
         transition={{duration:0.5,ease:"easeIn"}}
         
-        className=' md:bg-linear-to-r from-slate-900 via-gray-900  to-emerald-900   justify-center
-         overflow-hidden flex md:justify-between px-10 fixed md:absolute bottom-2 left-0  right-0 z-50
-          bg-white/20 backdrop-blur-md w-[80%]  md:w-full md:mx-0 mx-auto  gap-5 border rounded-lg 
-           border-gray-900 md:border-none md:rounded-none md:top-0 md:bottom-auto md:border-t-0 md:border-b'>
+       className='md:bg-linear-to-r from-slate-900 via-gray-900 to-emerald-900 justify-center
+overflow-hidden flex md:justify-between px-4 md:px-10 fixed md:absolute bottom-2 left-0 right-0 z-50
+bg-white/20 backdrop-blur-md w-[90%] md:w-full md:mx-0 mx-auto gap-5 border rounded-lg 
+border-gray-900 md:border-none md:rounded-none md:top-0 md:bottom-auto md:border-t-0 md:border-b'>
 
             <Link to='/'>
                 <motion.img whileHover={{scale:1.05}} src={assets.logo} alt="logo" className='h-24  hidden md:block  pl-16' />
