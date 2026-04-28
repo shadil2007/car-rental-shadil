@@ -112,7 +112,7 @@ const handlesubmit = (e) => {
 
 
             <div>
-                <img src={assets.main_car} alt="cars" className='max-h-120 right-0 top-40 md:hidden  mt-56 absolute ' />
+                <img src={assets.main_car} alt="cars" className='max-h-120 right-0 top-40 md:hidden  mt-49 absolute ' />
                 <motion.img
                   initial={{x:200,opacity:0,scale:0.95}}
                  animate={{x:0,opacity:1,scale:1}}
