@@ -27,7 +27,7 @@ export default function Banner() {
                 So you can earn passive income - stress free
             </p>
 
-           <BannerButton/>
+           <BannerButton   />
 
            
         
@@ -36,7 +36,7 @@ export default function Banner() {
 
 
          <motion.img 
-           initial={{x:450,opacity:0}}
+           initial={{x:150,opacity:0}}
           whileInView={{x:0,opacity:1}}
           transition={{duration:1,ease:"easeIn"}}
           
